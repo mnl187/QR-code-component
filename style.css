@@ -42,8 +42,8 @@ body {
 }
 @media (min-width: 375px) {
   .box {
-    height: 45rem;
-    width: 25rem;
+    height: 36rem;
+    width: 21rem;
   }
   .qr-box {
     margin: 1rem;
@@ -53,10 +53,10 @@ body {
 
   }
   .qr-text-title {
-    font-size: 1.4rem;
+    font-size: 0.5rem;
   }
   .qr-text-parag {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: 0.65rem;
   }
 }
