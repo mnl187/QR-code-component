@@ -7,11 +7,11 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   color: hsl(218, 44%, 22%);
 }
 .attribution {
-  font-size: 15px;
+  font-size: 1rem;
   text-align: center;
 }
 .attribution a {
@@ -24,8 +24,6 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   display: grid;
-  
-  /* grid-auto-rows: minmax(100px, auto); */
   border-radius: 20px;
 }
 .qr-code-img {
@@ -42,7 +40,28 @@ body {
   color: hsl(215, 10%, 64%);
 
 }
+@media (min-width: 375px) {
+  .box {
+    height: 45rem;
+    width: 25rem;
+  }
+  .qr-box {
+    margin: 1rem;
+  }
+  .qr-text {
+    margin: 0.5rem 1rem 0 1rem;
+
+  }
+  .qr-text-title {
+    font-size: 1.4rem;
+  }
+  .qr-text-parag {
+    font-size: 1rem;
+    margin-top: 0.65rem;
+  }
+}
 @media (min-width: 1440px) {
+
   .box {
     height: 70vh;
     width: 43vh;
@@ -51,35 +70,14 @@ body {
   .qr-box {
     margin: 20px;
   }
-} 
+}
 .qr-text {
-  margin: 10px 50px 0px 50px;
+  margin: 0.7rem 3.125rem 0 3.125rem;
 }
 .qr-text-title {
   font-size: 2rem;
 }
 .qr-text-parag {
   font-size: 1.3rem;
-  margin-top: 30px;
-}
-
-@media (max-width: 1439px) {
-  .box {
-    height: 70vh;
-    width: 350px;
-  }
-  .qr-box {
-    margin: 13px;
-  }
-  .qr-text {
-    margin: 8px 15px 0px 15px;
-    
-  }
-  .qr-text-title {
-    font-size: 1.4em;
-  }
-  .qr-text-parag {
-    font-size: 1em;
-    margin-top: 10px;
-  }
+  margin-top: 2rem;
 }
