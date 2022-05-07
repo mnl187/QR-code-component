@@ -1,83 +1,101 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: hsl(212, 45%, 89%);
-  font-family: "Outfit", Arial, sans-serif;
-  font-size: 1rem;
-  color: hsl(218, 44%, 22%);
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", Arial, sans-serif;
+    font-size: 1rem;
+    color: hsl(218, 44%, 22%);
 }
+
 .attribution {
-  font-size: 1rem;
-  text-align: center;
+    font-size: 1rem;
+    text-align: center;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
+
 .box {
-  background-color: hsl(0, 0%, 100%);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: grid;
-  border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    border-radius: 20px;
 }
+
 .qr-code-img {
-  border-radius: 20px;
-  width: 100%;
+    border-radius: 20px;
+    width: 100%;
 }
+
 .qr-text {
-  text-align: center;
+    text-align: center;
 }
+
 .qr-text-title {
-  font-weight: 700;
+    font-weight: 700;
 }
+
 .qr-text-parag {
-  color: hsl(215, 10%, 64%);
+    color: hsl(215, 10%, 64%);
 
 }
+
 @media (min-width: 375px) {
-  .box {
-    height: 36rem;
-    width: 21rem;
-  }
-  .qr-box {
-    margin: 1rem;
-  }
-  .qr-text {
-    margin: 0.5rem 1rem 0 1rem;
+    .box {
+        height: 32rem;
+        width: 21rem;
+    }
 
-  }
-  .qr-text-title {
-    font-size: 0.5rem;
-  }
-  .qr-text-parag {
-    font-size: 0.5rem;
-    margin-top: 0.65rem;
-  }
+    .qr-box {
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .qr-text {
+        margin: 0 1rem;
+
+    }
+
+    .qr-text-title {
+        font-size: 1.5rem;
+    }
+
+    .qr-text-paragraph {
+        font-size: 1.1rem;
+        margin-top: 0.65rem;
+    }
 }
+
 @media (min-width: 1440px) {
 
-  .box {
-    height: 70vh;
-    width: 43vh;
-    grid-template-rows: 1.4fr 1fr;
-  }
-  .qr-box {
-    margin: 20px;
-  }
-}
-.qr-text {
-  margin: 0.7rem 3.125rem 0 3.125rem;
-}
-.qr-text-title {
-  font-size: 2rem;
-}
-.qr-text-parag {
-  font-size: 1.3rem;
-  margin-top: 2rem;
+    .box {
+        height: 70vh;
+        width: 43vh;
+        grid-template-rows: 1.4fr 1fr;
+    }
+
+    .qr-box {
+        margin: 20px;
+
+    }
+
+    .qr-text {
+        margin: 0.7rem 3.125rem 0 3.125rem;
+    }
+
+    .qr-text-title {
+        font-size: 2rem;
+    }
+
+    .qr-text-paragraph {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
 }
